@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="refresh" content="0; url='Menu_compressed.pdf'" />
-    <title>Redirecting to PDF...</title>
+    <title>View PDF</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        iframe {
+            width: 100vw;
+            height: 100vh;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    <p>If you are not redirected automatically, <a href="Menu_compressed.pdf">click here to open the PDF.</a></p>
+    <iframe src="Menu_compressed.pdf"></iframe>
 </body>
 </html>
